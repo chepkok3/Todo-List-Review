@@ -30,7 +30,8 @@ const itemsList = (itemList, id) => {
 
   button.addEventListener('click', (e) => {
     const itemParent = e.target.parentNode.parentNode;
-    itemParent.querySelector('.fa-trash-can').parentNode.style.display = 'block';
+    itemParent.querySelector('.fa-trash-can').parentNode.style.display =
+      'block';
     li.style.background = '#f7ce';
     button.style.display = 'none';
     text.disabled = false;

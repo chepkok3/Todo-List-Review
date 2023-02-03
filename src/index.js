@@ -1,5 +1,4 @@
 // eslint-disable-next-line
-import _ from 'lodash';
 import './style.css';
 
 import { list, ItemSaved } from './modules/addRemoveItems.js';
@@ -39,7 +38,7 @@ taskCompleteButton.addEventListener('click', () => {
 
   taskList.innerHTML = '';
   dolist.forEach((itemList, index) => {
-    itemList(itemList, index + 1);
+    itemsList(itemList, index + 1);
   });
   localStorage.setItem('list', JSON.stringify(dolist));
 });
