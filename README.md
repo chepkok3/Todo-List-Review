@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://chepkok3.github.io/Todo-List-Review/)
+- [Live Demo Link](https://chepkok3.github.io/Todo-List-Review/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
